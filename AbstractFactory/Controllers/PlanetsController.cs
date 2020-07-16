@@ -13,7 +13,14 @@ namespace AbstractFactory.Controllers
         [Route("")]
         public string Get()
         {
-            return _business.GetCsv();
+            return _business.GetCsv("ptbr");
+        }
+        
+        [HttpGet]
+        [Route("sql")]
+        public string GetSql()
+        {
+            return _business.GetCsv("sql");
         }
     }
 }

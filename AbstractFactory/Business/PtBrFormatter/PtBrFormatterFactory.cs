@@ -1,8 +1,8 @@
 ﻿namespace AbstractFactory.Business.PtBrFormatter
 {
-    public class PtBrFormatterFactory
+    public class PtBrFormatterFactory : IFormatterFactory
     {
-        public PtBrFormatter GetHeaderFormatter() => new PtBrFormatter();
-        public PtBrFormatter GetBodyFormatter() => new PtBrFormatter();
+        public IFormatter GetHeaderFormatter() => new PtBrFormatter();
+        public IFormatter GetBodyFormatter() => new PtBrFormatter();
     }
 }

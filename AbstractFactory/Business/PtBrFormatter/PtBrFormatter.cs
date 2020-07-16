@@ -2,7 +2,7 @@
 
 namespace AbstractFactory.Business.PtBrFormatter
 {
-    public class PtBrFormatter
+    public class PtBrFormatter : IFormatter
     {
         public string Format(object valor)
         {

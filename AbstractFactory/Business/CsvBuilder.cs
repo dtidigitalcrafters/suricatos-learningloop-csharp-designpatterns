@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using AbstractFactory.Business.PtBrFormatter;
-
-namespace AbstractFactory.Business
+﻿namespace AbstractFactory.Business
 {
     public class CsvBuilder
     {
         private string _csv;
-        private PtBrFormatterFactory _formatterFactory;
+        private IFormatterFactory _formatterFactory;
+        private const int cellPadding = 15;
 
-        public CsvBuilder(PtBrFormatterFactory formatterFactory)
+        public CsvBuilder(IFormatterFactory formatterFactory)
         {
             _formatterFactory = formatterFactory;
         }
@@ -20,8 +17,8 @@ namespace AbstractFactory.Business
 
             foreach (var val in valores)
             {
-                _csv += headerFormatter.Format(val);
-                _csv += ";   ";
+                _csv += headerFormatter.Format(val).PadRight(cellPadding);
+                _csv += "; ";
             }
 
             _csv += '\n';
@@ -33,8 +30,8 @@ namespace AbstractFactory.Business
 
             foreach (var val in valores)
             {
-                _csv += bodyFormatter.Format(val);
-                _csv += ";   ";
+                _csv += bodyFormatter.Format(val).PadRight(cellPadding);
+                _csv += "; ";
             }
 
             _csv += '\n';
