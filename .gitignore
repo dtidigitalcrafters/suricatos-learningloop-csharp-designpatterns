@@ -351,3 +351,6 @@ MigrationBackup/
 
 # IntelliJ idea settings
 .idea/
+
+# vscode folder
+.vscode
