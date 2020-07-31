@@ -1,0 +1,13 @@
+C:\Users\Dell\LL\StructuralPattern\bin\Debug\netcoreapp3.1\StructuralPattern.exe
+C:\Users\Dell\LL\StructuralPattern\bin\Debug\netcoreapp3.1\StructuralPattern.deps.json
+C:\Users\Dell\LL\StructuralPattern\bin\Debug\netcoreapp3.1\StructuralPattern.runtimeconfig.json
+C:\Users\Dell\LL\StructuralPattern\bin\Debug\netcoreapp3.1\StructuralPattern.runtimeconfig.dev.json
+C:\Users\Dell\LL\StructuralPattern\bin\Debug\netcoreapp3.1\StructuralPattern.dll
+C:\Users\Dell\LL\StructuralPattern\bin\Debug\netcoreapp3.1\StructuralPattern.pdb
+C:\Users\Dell\LL\StructuralPattern\obj\Debug\netcoreapp3.1\StructuralPattern.csprojAssemblyReference.cache
+C:\Users\Dell\LL\StructuralPattern\obj\Debug\netcoreapp3.1\StructuralPattern.AssemblyInfoInputs.cache
+C:\Users\Dell\LL\StructuralPattern\obj\Debug\netcoreapp3.1\StructuralPattern.AssemblyInfo.cs
+C:\Users\Dell\LL\StructuralPattern\obj\Debug\netcoreapp3.1\StructuralPattern.csproj.CoreCompileInputs.cache
+C:\Users\Dell\LL\StructuralPattern\obj\Debug\netcoreapp3.1\StructuralPattern.dll
+C:\Users\Dell\LL\StructuralPattern\obj\Debug\netcoreapp3.1\StructuralPattern.pdb
+C:\Users\Dell\LL\StructuralPattern\obj\Debug\netcoreapp3.1\StructuralPattern.genruntimeconfig.cache
