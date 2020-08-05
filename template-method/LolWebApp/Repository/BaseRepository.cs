@@ -12,7 +12,7 @@ namespace LolWebApp.Repository
     {
         private readonly IHttpClientFactory _clientFactory;
         private string baseUrl = "https://br1.api.riotgames.com/lol/";
-        private string apiKey = "RGAPI-997478b5-a114-47af-8d83-f3efabafa47e";
+        private string apiKey = "ADD_API_KEY";
 
         public BaseRepository(IHttpClientFactory clientFactory)
         {
