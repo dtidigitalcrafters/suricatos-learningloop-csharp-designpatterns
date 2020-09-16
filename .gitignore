@@ -354,3 +354,5 @@ MigrationBackup/
 
 # vscode folder
 .vscode
+
+*.exe
